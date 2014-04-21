@@ -2,7 +2,7 @@
 1) About
 ----------------------------------------
 This is a tool that can cut MPEG-TS stream into slices which will be suitable for Apple HLS(Http Live Streaming).
-This is a update branch version for httpsegmenter from https://code.google.com/p/httpsegmenter/ 
+This is a update branch version of httpsegmenter from https://code.google.com/p/httpsegmenter/ 
 
 
 2) Install
@@ -19,6 +19,8 @@ b) Install json-c:
 	cd 3rdparty
 	tar -zxvf json-c-master.tar.gz
 	cd json-c-master
+	./autogen.sh
+	./configure
 	make
 	make install
 
@@ -35,9 +37,12 @@ Functions
 4.Add exit condition by monitor another application;
 
 
-Addition:
+Note
 ----------------------------------------
 You can download the newest version from https://github.com/Cas-pian/httpsegmenter
 Any questions please contact with me: caspian46@gmail.com
 
+CoypRight
+----------------------------------------
+GNU GPL v2, see COPYING for details.
 
