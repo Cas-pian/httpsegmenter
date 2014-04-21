@@ -1,0 +1,43 @@
+
+1) About
+----------------------------------------
+This is a tool that can cut MPEG-TS stream into slices which will be suitable for Apple HLS(Http Live Streaming).
+This is a update branch version for httpsegmenter from https://code.google.com/p/httpsegmenter/ 
+
+
+2) Install
+----------------------------------------
+This program dependens the libaraies under ffmpeg and json-c.
+
+a) Install ffmpeg:
+	On Ubuntu/Debian, run:
+		sudo apt-get install ffmpeg
+	On RedHat/CentOs, run:
+		sudo yum install ffmpeg
+
+b) Install json-c:
+	cd 3rdparty
+	tar -zxvf json-c-master.tar.gz
+	cd json-c-master
+	make
+	make install
+
+c) Install httpsegmenter:
+	make
+	make install
+	
+
+Functions
+----------------------------------------
+1.Segment MPEG-TS stream for Apple HLS protocol;
+2.Add time control modification;
+3.Add key frame information recording;
+4.Add exit condition by monitor another application;
+
+
+Addition:
+----------------------------------------
+You can download the newest version from https://github.com/Cas-pian/httpsegmenter
+Any questions please contact with me: caspian46@gmail.com
+
+

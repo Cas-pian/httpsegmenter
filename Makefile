@@ -7,8 +7,6 @@ clean:
 install: 
 	chmod +x segmenter
 	cp -f segmenter /usr/local/bin/
-	chmod +x segmenterdemon.sh
-	cp -f segmenterdemon.sh /usr/local/bin/
 
 uninstall:
 	rm /usr/local/bin/segmenter
