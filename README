@@ -9,27 +9,27 @@ This is a update branch version of httpsegmenter from https://code.google.com/p/
 ----------------------------------------
 This program dependens the libaraies under ffmpeg and json-c.
 
-a) Install ffmpeg:
-	On Ubuntu/Debian, run:
-		sudo apt-get install ffmpeg
-	On RedHat/CentOs, run:
-		sudo yum install ffmpeg
+	a) Install ffmpeg:
+		On Ubuntu/Debian, run:
+			sudo apt-get install ffmpeg
+		On RedHat/CentOs, run:
+			sudo yum install ffmpeg
 
-b) Install json-c:
-	cd 3rdparty
-	tar -zxvf json-c-master.tar.gz
-	cd json-c-master
-	./autogen.sh
-	./configure
-	make
-	make install
+	b) Install json-c:
+		cd 3rdparty
+		tar -zxvf json-c-master.tar.gz
+		cd json-c-master
+		./autogen.sh
+		./configure
+		make
+		make install
 
-c) Install httpsegmenter:
-	make
-	make install
-	
+	c) Install httpsegmenter:
+		make
+		make install
+		
 
-Functions
+3) Functions
 ----------------------------------------
 1.Segment MPEG-TS stream for Apple HLS protocol;
 2.Add time control modification;
@@ -37,12 +37,12 @@ Functions
 4.Add exit condition by monitor another application;
 
 
-Note
+4) Note
 ----------------------------------------
 You can download the newest version from https://github.com/Cas-pian/httpsegmenter
 Any questions please contact with me: caspian46@gmail.com
 
-CoypRight
+5) CoypRight
 ----------------------------------------
 GNU GPL v2, see COPYING for details.
 
